@@ -1,6 +1,6 @@
-# Motion::Oauth2
+# Motion::OAuth2
 
-TODO: Write a gem description
+OAuth2 client library for RubyMotion apps
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+See sample code in *example* directory.
 
 ## Contributing
 
