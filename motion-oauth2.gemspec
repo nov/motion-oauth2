@@ -13,4 +13,8 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = File.read("VERSION").delete("\n\r")
   gem.add_runtime_dependency "bubble-wrap"
+  gem.add_development_dependency 'mocha', '0.11.4'
+  gem.add_development_dependency 'mocha-on-bacon'
+  gem.add_development_dependency 'bacon'
+  gem.add_development_dependency 'rake'
 end
