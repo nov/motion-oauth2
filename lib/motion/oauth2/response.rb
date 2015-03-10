@@ -52,7 +52,7 @@ module Motion
       end
 
       def body
-        raw_response.body.to_str
+        raw_response.body.to_str unless raw_response.body.nil?
       end
 
       def json
