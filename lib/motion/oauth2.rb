@@ -52,6 +52,7 @@ module Motion
       options[:headers].merge!(
         Authorization: "#{schema} #{access_token}"
       )
+      options.delete :files if options[:files].nil?
       options
     end
   end
